@@ -16,25 +16,25 @@ class InventoryService(inventory_pb2_grpc.InventoryServiceServicer):
     "12345678": {
         "title": "The Lord of the Rings",
         "author": "J.R.R. Tolkien",
-        "genre": 1,
+        "genre": Genre.FICTION,
         "publishing_year": 1954
     },
     "23456789": {
         "title": "Dune",
         "author": "Frank Herbert",
-        "genre": 2,
+        "genre": Genre.FICTION,
         "publishing_year": 1965
     },
     "34567890": {
         "title": "The Hound of the Baskervilles",
         "author": "Arthur Conan Doyle",
-        "genre": 0,
+        "genre": Genre.FICTION,
         "publishing_year": 1902
     },
     "45678901": {
         "title": "Pride and Prejudice",
         "author": "Jane Austen",
-        "genre": 2,
+        "genre": Genre.FICTION,
         "publishing_year": 1813
     }
 }
